@@ -1,10 +1,9 @@
-import { Button } from "antd";
+import Login from "./components/login";
 
 export default function Home() {
   return (
-    <>
-      <Button >Click Me</Button>
-      <h1>Hello world</h1>
-    </>
+    <main>
+      <Login />
+    </main>
   );
 }
